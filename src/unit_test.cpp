@@ -3,7 +3,6 @@
 #include "gmock/gmock.h"
 #include "hw1.h"
 
-/*
 TEST(HW1Test, ZEROS) {
     Matrix matrix{algebra::zeros(5, 6)};
 
@@ -360,6 +359,7 @@ TEST(HW1Test, BONUS) {
     EXPECT_NEAR(res2[2][1], 0, 0.03);
     EXPECT_NEAR(res2[2][2], 39/4.0, 0.03);
 }
+/*
 */
 
 
